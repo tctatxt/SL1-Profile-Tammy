@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
+
+body {
+    font-family: "Delicious Handrawn", cursive;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav {
+    /* border: 1px solid black; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    z-index: 1;
+    position: absolute;
+}
+
+.header {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c2e8f9;
+}
+
+.header img {
+    width: 25vw;
+}
+
+.teksH {
+    width: 50%;
+}
+
+.teksH h1 {
+    margin: auto;
+}
+
+.teksH h6 {
+    margin: auto;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    /* border: 1px solid black; */
+}
+
+.how h1 {
+    margin: auto;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+}
+
+.pict {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    width: 80%;
+}
+
+.item {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    width: 9vw;
+    /* border: 1px solid black; */
+    margin-bottom: 1vw;
+}
+
+.hoby {
+    margin-top: 2vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hoby h1 {
+    font-size: 3vw;
+}
+
+.hobBox {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 1vw;
+}
+
+.hobby {
+    /* border: 1px solid black; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    border: 1px solid grey;
+}
+
+.hobby img {
+    width: 9vw;
+    /* border: 1px solid black; */
+    margin-bottom: 1vw;
+}
+
+.teksHobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.teksHobby h6 {
+    font-size: 2vw;
+}
+
+.myarticel {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.myarticel h1 {
+    font-size: 3vw;
+}
