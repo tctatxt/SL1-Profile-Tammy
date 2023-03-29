@@ -57,7 +57,7 @@
 </div>
 <div class="myarticel">
   <h1>My Articel</h1>
-  <p>Here is my articel</p>
+  <p>Here is my articel, you can see:</p>
   @foreach ($articel as $ar)
   <article class="mb-5">
   <a href="/articel/{{$ar->slug}}"><h2>{{$ar->title}}</h2></a>
