@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
 
 body {
-    font-family: "Delicious Handrawn", cursive;
+    /* font-family: "Delicious Handrawn", cursive; */
     font-family: "Poppins", sans-serif;
 }
 
 .navbar-nav {
-    /* border: 1px solid black; */
     width: 70%;
     display: flex;
     justify-content: space-around;
@@ -18,8 +17,7 @@ nav {
 }
 
 .header {
-    padding-left: 2vw;
-    padding-right: 2vw;
+    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -143,4 +141,29 @@ nav {
 
 .myarticel h1 {
     font-size: 3vw;
+}
+
+.itemarticel {
+    border: 1px solid black;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.itemarticel h2 {
+    font-size: 2.4vw;
+    text-decoration: none;
+}
+
+.itemarticel p {
+    font-size: 1.5vw;
+}
+
+.itemarticel a {
+    text-decoration: none;
+    color: black;
+}
+
+.itemarticel a:hover {
+    text-decoration: underline;
+    color: black;
 }
