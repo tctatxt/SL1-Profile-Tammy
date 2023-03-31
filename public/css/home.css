@@ -6,7 +6,7 @@ body {
 }
 
 .navbar-nav {
-    width: 70%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
 }
@@ -56,6 +56,52 @@ nav {
     margin: auto;
     font-size: 3vw;
     margin-bottom: 2vw;
+}
+
+.mySkill h1 {
+    margin: auto;
+    font-size: 3vw;
+}
+
+.oneskill h4 {
+    font-size: 1.5vw;
+}
+
+.oneskill {
+    margin-bottom: 1vw;
+}
+
+.mySchool h1 {
+    margin: auto;
+    font-size: 3vw;
+}
+
+.school {
+    border-radius: 2vw;
+    border: 1px solid #d3d3d3;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    justify-content: space-around;
+}
+
+.school h2 {
+    font-size: 1.8vw;
+}
+
+.school p {
+    font-size: 1.5vw;
+}
+
+.schoolteks {
+    width: 50%;
+}
+
+.school img {
+    border-radius: 2vw;
+    height: 12vw;
+    width: 19vw;
 }
 
 .pict {
@@ -111,7 +157,7 @@ nav {
     align-items: center;
     padding: 1vw 2vw;
     border-radius: 2vw;
-    border: 1px solid grey;
+    border: 1px solid #d3d3d3;
 }
 
 .hobby img {

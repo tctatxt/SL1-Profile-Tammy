@@ -13,6 +13,15 @@
             <a class="nav-link" href="/home#howGod">How God made me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="/home#mySkill">MySkill</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#myExperience">MyExperience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#myEducation">MyEducation</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/home#hob">MyHobby</a>
           </li>
           <li class="nav-item">

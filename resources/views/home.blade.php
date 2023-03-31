@@ -8,7 +8,7 @@
     </div>
     <img src="Home.png" alt="">
   </div>
-  <div class="how" id="howGod">
+  <div class="how" id="howGod" data-aos="fade-right">
     <H1>How God Made Me</H1>
     <div class="pict">
       <div class="item">
@@ -29,6 +29,57 @@
       </div>
     </div>
   </div>
+  <div class="mySkill ps-5 pe-5 mt-3" id="mySkill">
+    <H1 class="d-flex justify-content-center">My Skill</H1>
+    <div class="oneskill">
+      <h4>Pyhton</h4>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+      </div>
+    </div>
+    <div class="oneskill">
+      <h4>Java</h4>
+      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+      </div>
+    </div>
+    <div class="oneskill">
+      <h4>C/C++</h4>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+      </div>
+    </div>
+    <div class="oneskill">
+      <h4>R</h4>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+      </div>
+    </div>
+    <div class="oneskill">
+      <h4>HTML/CSS</h4>
+      <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+      </div>
+    </div>
+    <div class="oneskill">
+      <h4>JavaScript</h4>
+      <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar bg-success" style="width: 25%">25%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mySchool ps-5 pe-5 mt-4" id="mySchool">
+    <h1 class="d-flex justify-content-center mb-2">My Education</h1>
+    <div class="school">
+      <img src="/sekolah.jpg" alt="">
+      <div class="schoolteks">
+        <h2>SD-SMA Yos Sudarso Karawang</h2>
+        <p>If there are new kids at this school, I can tell them horror stories, the funniest stories at school, who the teachers have taught, and how this school was built.</p>
+      </div>
+    </div>
+  </div>
+
   <div class="hoby" id="hob">
     <h1>My Hobby</h1>
     <div class="hobBox" data-aos="fade-up">
@@ -36,7 +87,7 @@
           <img src="pict1.png" alt="">
           <div class="teksHobby">
             <h6>Writing</h6>
-            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can press myarticel in navigation</p> 
+            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can press myarticle in navigation</p> 
           </div>
         </div>
         <div class="hobby">
@@ -57,8 +108,8 @@
   </div>
 
 <div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel">
-  <h1 class="d-flex justify-content-center">My Articel</h1>
-  <p class="d-flex justify-content-center">Here is my articel, you can see:</p>
+  <h1 class="d-flex justify-content-center">My Article</h1>
+  <p class="d-flex justify-content-center">Here is my article, you can see:</p>
   <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset " data-aos="fade-left">
     @foreach ($kumpul_articel as $ar)
   <div class="card" style="width: 18rem;">
@@ -77,7 +128,7 @@
 
   <div class="myGalery-fluid mt-4" id="myGalery">
     <h1 class="d-flex justify-content-center">My Galery</h1>
-    <p class="d-flex justify-content-center">Here is a wall to hang up my creations:</p>
+    <p class="d-flex justify-content-center">Here is a wall to hang up my creations (well, you can focus on the image instead of the text):</p>
       <div class="galBox" data-aos="fade-up">
           <img src="/renungan1.png" alt="" class=" rounded w-25">
           <img src="/renungan2.png" alt="" class=" rounded w-25">
