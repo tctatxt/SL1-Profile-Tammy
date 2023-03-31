@@ -22,13 +22,10 @@
             <a class="nav-link" href="/home#myEducation">MyEducation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/home#hob">MyHobby</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/home#myarticel">MyArticel</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/home#myGalery">MyGalery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#myContact">Contact</a>
           </li>
         </ul>
       </div>

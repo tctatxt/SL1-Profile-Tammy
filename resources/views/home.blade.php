@@ -68,7 +68,35 @@
       </div>
     </div>
   </div>
-
+  <div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel">
+    <h1 class="d-flex justify-content-center">My Experience</h1>
+    <p class="d-flex justify-content-center">Here are some of the projects I worked on during PPTI:</p>
+    
+    <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset " data-aos="fade-left">
+      <div class="card" style="width: 18rem;">
+        <img src="fugemy.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-reset">FuGemy</h5>
+        <p class="card-text text-reset">Fugemy is a website that provides various courses and has trained instructors</p>
+      </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="facedec.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-reset">FaceDec</h5>
+        <p class="card-text text-reset">FacaDe is a website that provides automatic face detection services</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="poorbye.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-reset">Poorbye</h5>
+      <p class="card-text text-reset">Poorbye is a website for managing finances such as recording, analysis and reports.</p>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
   <div class="mySchool ps-5 pe-5 mt-4" id="mySchool">
     <h1 class="d-flex justify-content-center mb-2">My Education</h1>
     <div class="school">
@@ -87,7 +115,7 @@
           <img src="pict1.png" alt="">
           <div class="teksHobby">
             <h6>Writing</h6>
-            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can press myarticle in navigation</p> 
+            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can scroll it</p> 
           </div>
         </div>
         <div class="hobby">
@@ -124,18 +152,21 @@
   </div>
   @endforeach
   </div>
+</div>
+<div class="myGalery-fluid mt-4" id="myGalery">
+  <h1 class="d-flex justify-content-center">My Galery</h1>
+  <p class="d-flex justify-content-center">Here is a wall to hang up my creations (well, you can focus on the image instead of the text):</p>
+    <div class="galBox" data-aos="fade-up">
+        <img src="/renungan1.png" alt="" class=" rounded w-25">
+        <img src="/renungan2.png" alt="" class=" rounded w-25">
+        <img src="/background.png" alt="" class=" rounded w-25">
 
+    </div>
+</div>
 
-  <div class="myGalery-fluid mt-4" id="myGalery">
-    <h1 class="d-flex justify-content-center">My Galery</h1>
-    <p class="d-flex justify-content-center">Here is a wall to hang up my creations (well, you can focus on the image instead of the text):</p>
-      <div class="galBox" data-aos="fade-up">
-          <img src="/renungan1.png" alt="" class=" rounded w-25">
-          <img src="/renungan2.png" alt="" class=" rounded w-25">
-          <img src="/background.png" alt="" class=" rounded w-25">
+<div class="myContact" id="myContact">
+  <h1 class="d-flex justify-content-center">My Contact</h1>
 
-      </div>
-  </div>
 </div>
 
 @endsection
