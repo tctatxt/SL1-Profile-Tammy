@@ -18,7 +18,11 @@
           <li class="nav-item">
             <a class="nav-link" href="/home#myarticel">MyArticel</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home#myGalery">MyGalery</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+

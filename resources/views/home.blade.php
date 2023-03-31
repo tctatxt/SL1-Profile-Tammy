@@ -56,17 +56,35 @@
     </div>
   </div>
 
-<div class="myarticel" id="myarticel">
-  <h1>My Articel</h1>
-  <p>Here is my articel, you can see:</p>
-  @foreach ($kumpul_articel as $ar)
-  <article class="itemarticel mb-5" id="itemarticel">
-  <a href="/artikel/{{$ar["slug"]}}" class="link"><h2>{{$ar["title"]}}</h2></a>
-  <p>{{$ar["excerpt"]}}</p>
-  </article>
+<div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel">
+  <h1 class="d-flex justify-content-center">My Articel</h1>
+  <p class="d-flex justify-content-center">Here is my articel, you can see:</p>
+  <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset " data-aos="fade-left">
+    @foreach ($kumpul_articel as $ar)
+  <div class="card" style="width: 18rem;">
+    <a href="/artikel/{{$ar["slug"]}}" class="text-reset text-decoration-none">
+      <img src="{{$ar["image"]}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-reset">{{$ar["title"]}}</h5>
+      <p class="card-text text-reset">{{$ar["excerpt"]}}</p>
+      <a href="/artikel/{{$ar["slug"]}}" class="btn btn-outline-primary d-flex justify-content-center mt-2">Klik here</a>
+    </div>
+    </a>
+  </div>
   @endforeach
+  </div>
 
-  
+
+  <div class="myGalery-fluid mt-4" id="myGalery">
+    <h1 class="d-flex justify-content-center">My Galery</h1>
+    <p class="d-flex justify-content-center">Here is a wall to hang up my creations:</p>
+      <div class="galBox" data-aos="fade-up">
+          <img src="/renungan1.png" alt="" class=" rounded w-25">
+          <img src="/renungan2.png" alt="" class=" rounded w-25">
+          <img src="/background.png" alt="" class=" rounded w-25">
+
+      </div>
+  </div>
 </div>
 
 @endsection
