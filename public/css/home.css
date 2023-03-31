@@ -192,3 +192,48 @@ nav {
     /* border: 1px solid black; */
     margin-bottom: 1vw;
 }
+
+.myContact {
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    border: 2px solid #d3d3d3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myContact h1 {
+    font-size: 2vw;
+}
+
+.hubbox {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 30%;
+}
+
+.hub {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.hub1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.hub p {
+    margin: auto;
+}
+
+.hub1 p {
+    margin: auto;
+}
