@@ -66,15 +66,34 @@ hr {
     /* border: 1px solid black; */
 }
 
-.how h1 {
+.boxPer {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    border: 1px solid #d3d3d3;
+    padding: 1vw;
+}
+
+.boxPer h1 {
     margin: auto;
     font-size: 3vw;
     margin-bottom: 2vw;
 }
 
+.boxSk {
+    border: 1px solid black;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    border: 1px solid #d3d3d3;
+}
+
 .mySkill h1 {
     margin: auto;
     font-size: 3vw;
+    margin-bottom: 1vw;
 }
 
 .oneskill h4 {
@@ -209,13 +228,16 @@ hr {
 
 .myContact {
     padding: 1vw 2vw;
-    border-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
     margin-top: 2vw;
-    border: 2px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .myContact h1 {
@@ -225,19 +247,28 @@ hr {
 .hubbox {
     display: flex;
     /* border: 1px solid black; */
-    width: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .hub {
-    width: 70%;
+    width: 16vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid black; */
+}
+
+.hub2 {
+    width: 23vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hub1 {
-    width: 30%;
+    width: 9vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,5 +280,9 @@ hr {
 }
 
 .hub1 p {
+    margin: auto;
+}
+
+.hub2 p {
     margin: auto;
 }
