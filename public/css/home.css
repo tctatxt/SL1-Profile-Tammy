@@ -22,15 +22,29 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #c2e8f9;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .header img {
-    width: 25vw;
+    width: 35vw;
+    margin-bottom: 10vw;
+}
+
+hr {
+    display: block;
+    margin-top: -0.3vw;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 4px;
+    color: black;
+    background-color: black;
 }
 
 .teksH {
-    width: 50%;
+    margin-bottom: 10vw;
 }
 
 .teksH h1 {

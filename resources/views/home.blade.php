@@ -1,13 +1,18 @@
 
 @extends('layouts')
 @section('container')
-  <div class="header fluid">
-    <div class="teksH">
+
+
+
+</div>
+  <div class="header fluid bg-image" style="background-image: url('home background.png'); height:100vh">
+    <div class="teksH" data-aos="fade-right">
       <H1>Welcome To My House!</H1>
-      <h6>Hi, You can call me Tami, Tumu. I am a home owner who is interested in the world of programming, both frontend and backend. Currently, I'm studying to improve my design skills. Let's take a look inside my house</h6>
+      <h6>Hi, My name is Tammy Visca Tjitra. You can call me Tami, Tumu. I am a home owner who is interested in the world of programming, both frontend and backend. Currently, I'm studying to improve my design skills. Let's take a look inside my house</h6>
     </div>
-    <img src="Home.png" alt="">
+    <img src="/tamy.png" alt="" data-aos="fade-left">
   </div>
+  <hr >
   <div class="how" id="howGod" data-aos="fade-right">
     <H1>How God Made Me</H1>
     <div class="pict">
@@ -188,5 +193,8 @@
   </div>
   
 </div>
+
+
+
 
 @endsection
