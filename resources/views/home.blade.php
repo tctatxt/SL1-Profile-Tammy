@@ -13,6 +13,30 @@
     <img src="/tamy.png" alt="" data-aos="fade-left">
   </div>
   <hr >
+  <div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel" >
+    <h1 class="d-flex justify-content-center">My Article</h1>
+    <p class="d-flex justify-content-center">Here is my article, you can see (Article status based on the article I like the most):</p>
+    <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset ">
+      @foreach ($kumpul_articel as $ar)
+      @if ($ar["level"] == 'R')
+    <div class="card bg-secondary text-white" style="width: 18rem;">
+    @elseif ($ar["level"] == 'SR')
+    <div class="card  bg-warning text-dark" style="width: 18rem;">
+    @else
+    <div class="card bg-danger text-white" style="width: 18rem;">
+    @endif
+      <a href="/artikel/{{$ar["slug"]}}" class="text-reset text-decoration-none">
+        <img src="{{$ar["image"]}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-reset">{{$ar["title"]}}</h5>
+        <p class="card-text text-reset">{{$ar["excerpt"]}}</p>
+        <a href="/artikel/{{$ar["slug"]}}" class="btn btn-light d-flex justify-content-center mt-2">Klik here</a>
+      </div>
+      </a>
+    </div>
+    @endforeach
+    </div>
+  </div>
   <div class="how " id="howGod" data-aos="fade-right">
     <div class="boxPer">
       <H1>How God Made Me</H1>
@@ -37,7 +61,7 @@
     </div>
   </div>
 
-  <div class="mySkill ps-5 pe-5 mt-3" id="mySkill" data-aos="fade-left">
+  <div class="mySkill ps-5 pe-5 mt-3" id="mySkill" >
     <div class="boxSk">
       <H1 class="d-flex justify-content-center">My Skill</H1>
       <div class="oneskill">
@@ -81,7 +105,7 @@
   <div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel" data-aos="fade-right">
     <h1 class="d-flex justify-content-center">My Experience</h1>
     <p class="d-flex justify-content-center">Here are some of the projects I worked on during PPTI:</p>
-    
+
     <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset ">
       <div class="card" style="width: 18rem;">
         <img src="fugemy.png" class="card-img-top" alt="...">
@@ -107,7 +131,7 @@
 </div>
     </div>
   </div>
-  <div class="mySchool ps-5 pe-5 mt-4" id="mySchool" data-aos="fade-left">
+  <div class="mySchool ps-5 pe-5 mt-4" id="mySchool" >
     <h1 class="d-flex justify-content-center mb-2">My Education</h1>
     <div class="school">
       <img src="/sekolah.jpg" alt="">
@@ -125,7 +149,7 @@
           <img src="pict1.png" alt="">
           <div class="teksHobby">
             <h6>Writing</h6>
-            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can scroll it</p> 
+            <p>I really like this activity. I like to make stories and articles (except papers or journals). I've written several articles, if you want to see them, you can scroll it</p>
           </div>
         </div>
         <div class="hobby">
@@ -145,24 +169,6 @@
     </div>
   </div>
 
-<div class="myarticel d-flex flex-column justify-content-center mt-4" id="myarticel" data-aos="fade-left">
-  <h1 class="d-flex justify-content-center">My Article</h1>
-  <p class="d-flex justify-content-center">Here is my article, you can see:</p>
-  <div class="articles-fluid d-flex flex-row justify-content-evenly text-reset ">
-    @foreach ($kumpul_articel as $ar)
-  <div class="card" style="width: 18rem;">
-    <a href="/artikel/{{$ar["slug"]}}" class="text-reset text-decoration-none">
-      <img src="{{$ar["image"]}}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title text-reset">{{$ar["title"]}}</h5>
-      <p class="card-text text-reset">{{$ar["excerpt"]}}</p>
-      <a href="/artikel/{{$ar["slug"]}}" class="btn btn-outline-primary d-flex justify-content-center mt-2">Klik here</a>
-    </div>
-    </a>
-  </div>
-  @endforeach
-  </div>
-</div>
 <div class="myGalery-fluid mt-4" id="myGalery" data-aos="fade-up">
   <h1 class="d-flex justify-content-center">My Galery</h1>
   <p class="d-flex justify-content-center">Here is a wall to hang up my creations (well, you can focus on the image instead of the text):</p>
@@ -190,7 +196,7 @@
       <p class="locationx">tammyvisca08@gmail.com</p>
     </div>
   </div>
-  
+
 </div>
 
 
