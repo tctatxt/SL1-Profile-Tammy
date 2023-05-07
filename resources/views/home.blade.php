@@ -180,7 +180,7 @@
     </div>
 </div>
 
-<div class="myContact" id="myContact" data-aos="fade-bottom">
+<div class="myContact" id="myContact" >
   <h1>My Contact</h1>
   <div class="hubbox">
     <div class="hub">
