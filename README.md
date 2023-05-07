@@ -1,5 +1,7 @@
 #SL1-Profile-Tammy
 hello sir, I'm Tammy Visca Tjitra. I am a BCA PPTI scholarship recipient. I have skills in programming and designing. I am proficient in several programming languages, including Python, C, Java, and HTML. I also have a hobby of writing articles or stories.
+VIDEO GIF: 
+![Video GIF](https://github.com/tctatxt/SL1-Profile-Tammy/blob/7d6050ddff6ab8b13cb9466f52c5b2121e7f73aa/public/House%20of%20Tammy_GIF.gif)
 #Tampilan website profile
 ![Gambar](https://github.com/tctatxt/SL1-Profile-Tammy/blob/33ff04faaa91c37773d90f83367e1b35f713a0b2/tampilan%20profile.png)
 #tampilan How God Made Me
